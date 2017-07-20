@@ -2,11 +2,18 @@
 Image docker file. LAMP
 
 ## Clone this repository
+
 ``` console
 git clone git@github.com:rogov-k/docker.git
 ```
 
+## Create dir docroot
+``` console
+mkdir docroot
+```
+
 ## Setup mysql config in docker-compose.yml
+
 ```
 ...
 MYSQL_ROOT_PASSWORD: <your_root_password>
@@ -55,6 +62,7 @@ source <sql_dump_file.sql>;
 ```
 
 ## Clone you scrips in this folder
+
 ```
 /docroot
 ```
